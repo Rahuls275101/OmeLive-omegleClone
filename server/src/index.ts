@@ -13,7 +13,7 @@ app.use(cors({
 }));
 
 const server = http.createServer(app);
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 
 const io = new Server(server, {
   cors: {
